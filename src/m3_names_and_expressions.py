@@ -42,13 +42,15 @@ print(math.sqrt((41*88)+(4*math.cos(2))))
 ###############################################################################
 
 ###############################################################################
-# TODO: 4.
+# DONE: 4.
 #   Immediately below this _TODO_,
 #   write code that computes the square root of 2 in two ways:
 #     - By using the   math.sqrt   function.
 #     - By raising 2 to the 0.5 power (using   **   for exponentiation).
 #   Print both of the expressions that you write.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
+print(math.sqrt(2))
+print(2**0.5)
 ###############################################################################
 
 
