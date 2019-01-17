@@ -133,7 +133,7 @@ natasha.backward(100)
 
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -142,7 +142,15 @@ natasha.backward(100)
 #   naming it whatever you want.  Names cannot have spaces or special
 #   characters, but they can have digits and underscores, e.g.
 #      this_1_has
-#
+dave = rg.SimpleTurtle()
+dave.pen = rg.Pen('purple',15)
+dave.speed = 10
+dave.forward(40)
+dave.draw_square(100)
+dave.go_to(rg.Point(100,100))
+dave.speed = 1
+dave.backward(20)
+dave.right(10)
 #   STYLE RULE: Your names should always begin with a LOWER_CASE letter.
 #   So   mary   is OK   but   Mary   is NOT OK.
 #
